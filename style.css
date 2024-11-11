@@ -1,0 +1,164 @@
+body{
+    
+    background-image: url(https://cdn.pixabay.com/photo/2018/03/17/04/07/tunnel-3233082_1280.jpg);
+    width: auto;
+    margin: 0, auto;
+    margin-top: 5rem;
+}
+.container{
+    height: auto;
+    margin: auto;
+    padding: 15px;
+    width: 1080px;
+}
+.logo{
+    width: 500px auto;
+}
+.priyanshu{
+    width: 60px;
+    float: left;
+    margin: 6px;
+    border-radius: 50px;
+}
+.priyanshu:hover{
+    cursor: pointer;
+}
+.search{
+    float :right;
+    padding: 25px;
+}
+.main-menu{
+
+    font-size: 25px;
+    font-family: 'Courier Prime', monospace;
+    border-radius: 20px;
+}
+.main-menu > ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    float: none;
+    background-color: black;
+    background-blend-mode: lighten;
+    
+}
+.main-menu > ul >li{
+    display: inline-block;
+    text-align: justify;
+    margin: 20px;
+    width: auto;
+}
+.main-menu > ul >li >a{
+    text-decoration: none;
+    color: rgba(15, 178, 207, 0.911);
+    display: block;
+    padding: 3px;
+    font-size: x-large;
+    margin-right: 20px;
+}
+.main-menu > ul >li >a:hover{
+    color: grey;}
+
+.drop{
+    position: absolute;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    display: none;
+    z-index: 999;
+}
+.drop > li >a{
+    text-decoration: none;
+    color: rgba(15, 178, 207, 0.911);
+    display: block;
+    padding: 2px;
+    font-size: x-large;
+    background-color: rgb(39, 39, 39);
+
+}
+.drop > li >a:hover{
+    color: grey;
+}
+.main-menu > ul >li:hover .drop{
+    display: block;
+}
+.banner{
+    width: 1000px;
+    height: auto;
+}
+.banner img{
+    width: 1080.2px;
+    height: 720px;
+}
+.post-section {
+    position: relative;
+    top: -39rem;
+    margin: 26px auto;
+    color: rgba(15, 178, 207, 0.911);
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 4px;
+    border-radius: 8px;
+    width: 99%;
+    max-width: 1300px;
+    max-height: 800px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.post-section h2 {
+    font-family: 'Courier Prime', monospace;
+    font-size: 2em;
+    color: rgba(15, 178, 207, 0.911); /* Consistent with link color */
+}
+
+.post {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-bottom: 1px solid rgba(15, 178, 207, 0.3);
+}
+
+.post h3 {
+    font-size: 1.5em;
+    color: rgba(15, 178, 207, 0.911);
+}
+
+.post p {
+    font-size: 1em;
+    color: rgba(200, 233, 240, 0.9);
+}
+
+.post a {
+    display: inline-block;
+    margin-top: 2px;
+    color: rgba(15, 178, 207, 0.911);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.post a:hover {
+    color: grey;
+    text-decoration: underline;
+}
+
+body {
+    background-image: url(https://cdn.pixabay.com/photo/2018/03/17/04/07/tunnel-3233082_1280.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 5rem ;
+}
+
+.container {
+    position: relative;
+}
+
+.banner {
+    width: 100%;
+    max-width: 1102px;
+    margin: 0 auto;
+}
+
+.banner img {
+    width: 100%;        
+    height: auto;
+    border-radius: 10px;
+}
