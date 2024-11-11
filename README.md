@@ -1,2 +1,0 @@
-# SampleWebsite
-sample website
